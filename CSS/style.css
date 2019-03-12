@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    text-align: center
+}
+
+body {
+    background-image: 
+
+}
+
+img {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+header {
+    float: left;
+    background-color: white;
+    color: white; 
+    width: 100%;
+    
+}
+
+header div {
+    background-color: #4aaaa4;
+    margin: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+footer {
+    display: block;
+    background-color: #666666;
+    color: white;
+}
+h2 {
+    position: relative
+}}
+
+
+{
+	"folders": [
+		{
+			"path": "/Users/dan_longo/Desktop/Bootcamp/02-css-bootstrap/01-Activities"
+		},
+		{
+			"path": "/Users/dan_longo/Documents/GitHub/DanLongo-Basic-Portfolio"
+		},
+		{
+			"path": "/Users/dan_longo/Desktop/Bootcamp/02-css-bootstrap/02-Homework/Instructions/Images"
+		}
+	],
+	"settings": {}
+}
