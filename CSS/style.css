@@ -1,59 +1,43 @@
-* {
-    box-sizing: border-box;
-    text-align: center
-}
-
-body {
-    background-image: 
-
-}
-
 img {
-    float: left;
+    float: relative;
     width: 250px;
     height: 250px;
 }
 
-header {
-    float: left;
-    background-color: white;
-    color: white; 
-    width: 100%;
-    
+body {
+    background-image: url(cloth.png) 
+}
+header h1, nav{
+    display: inline-block;
+    background-color: white; 
+    width: 960px;
+    text-align: center;
+    height: 36px;
+    margin: 10px;
 }
 
-header div {
+header, h1{
+    float:left;
+}
+
+div {
     background-color: #4aaaa4;
     margin: 200px;
+    color: white;
+    width: 200px;
+    height: 200px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+
+
+h2 {
+    position: relative
+}
 
 footer {
     display: block;
     background-color: #666666;
     color: white;
-}
-h2 {
-    position: relative
-}}
-
-
-{
-	"folders": [
-		{
-			"path": "/Users/dan_longo/Desktop/Bootcamp/02-css-bootstrap/01-Activities"
-		},
-		{
-			"path": "/Users/dan_longo/Documents/GitHub/DanLongo-Basic-Portfolio"
-		},
-		{
-			"path": "/Users/dan_longo/Desktop/Bootcamp/02-css-bootstrap/02-Homework/Instructions/Images"
-		}
-	],
-	"settings": {}
+    width: 960px;
+    border-top:  #4aaaa4;
 }
