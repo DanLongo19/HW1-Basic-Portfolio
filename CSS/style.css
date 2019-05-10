@@ -1,6 +1,6 @@
-* {
-    box-sizing: border-box;
-    justify-content: center;
+#auth-image {
+width: 25px;
+height: 25px;
 }
 
 body {
@@ -9,6 +9,8 @@ body {
     line-height: 36px;
     font-family: 'Teko', sans-serif;
     color: black;
+    width: 100%;
+    text-align: center;
 }
 
 h1, h2, h3, p {
@@ -20,31 +22,30 @@ p:last-child {
     margin-bottom: 0;
 }
 
-h1, h2, h3 {
+h1{
     font-family: 'Teko', sans-serif;
     font-weight: 700;
     color: #cccccc;
-
-}
-
-h1 {
-    font-size: 30px;
-    line-height: 5opx;
-    border-bottom: 3px solid #ddd;
-    padding-bottom: 20px;
+    text-align: left;
     background: #666666;
     border-top: 8px solid #4aaaa5;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
 }
 
-h2, h3 {  
+h2, h3, h4 {
+    line-height: 5px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
     font-size: 22px;
-
+    align-content: center;
 }
+
 
 .container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0, auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     clear: both;
 }
 
@@ -55,7 +56,9 @@ h2, h3 {
     color: #fff;
     overflow: auto;
     border-bottom: 2px solid #cccccc;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: right;
 }
 
@@ -89,24 +92,11 @@ h2, h3 {
 }
 
 .main-container {
-    padding-top: 25px;
     background:#fff;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-section {
-    background: #fff;
-    padding: 30px;
-    width: 100%;
-    margin: 0 0 40px 0;
-    float: left;
-    max-width: 650px;
-    border: 1px solid #ddd;
-}
-
-.auth-image {
-    height: auto;
-    margin-top: 10px;
-}
 
 .footer {
     background: #666666;
@@ -117,34 +107,20 @@ h2, h3 {
     color: #cccccc;
     font-size: 12px;
     text-align: center;
+    width: 100%;
+    bottom: 0,
 }
 
 .work {
-    width: 274px;
     overflow: auto;
-    position: relative;
-    float: left;
-    margin: 20px 0 25px;
-
-}
-
-.work:nth-child(even) {
-    margin-right: 40px;
-
+    margin: 20px 20px 25px;
+    text-align: center;
 }
 
 .work img {
-    width: 200px;
+    width: 250px;
     border: 0 none;
     height: 200px;
-
-}
-
-.work, h3 {
-    border-bottom: 0;
-    color: #4aaaa5;
-    text-align: center;
-    bottom: 20px;
 }
 
 #contact-form ul{
@@ -153,7 +129,6 @@ h2, h3 {
 
 #contact-form li{
     margin-bottom: 10px;
-
 }
 
 label
